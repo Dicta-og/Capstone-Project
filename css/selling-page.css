@@ -1,0 +1,132 @@
+.display{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+}
+
+.display-list{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.display-list li{
+    list-style-type: none;
+    padding: 17px 10px 10px 10px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.display-icons{
+    display: flex;
+    padding: 15px 10px 10px 10px;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.company-logo{
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+}
+
+.company-logo img{
+    width: 150px;
+}
+
+.backdrop{
+    position: relative;
+}
+
+.backdrop img{
+    /* width: 1260px; */
+    width: 100%;
+    margin: auto;
+}
+
+.backdrop button{
+    position: absolute;
+  top: 90%;
+ right: 5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.backdrop button:hover{
+    background-color: rgb(88, 230, 230);
+}
+
+.recommend p{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.recommend-display{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.product-display{
+    background-color: rgb(225, 235, 244);
+    height: 310px;
+    padding: 10px;
+    box-shadow: 0px 0px 6px 4px rgb(171, 181, 190);
+}
+
+.product-display img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.product-price{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-price img{
+    width: 30px;
+}
+
+.product-to-cart{
+    display: flex;
+    justify-content: space-around;
+}
+
+#decrease-button, #increase-button{
+    background: transparent;
+    border: 1px solid rgb(117, 179, 179);
+}
+
+#itemNumber{
+    background-color: rgb(225, 235, 244);
+    width: 30px;
+    border: none;
+    text-align: center;
+}
+
+#add-to-cart{
+    background-color: rgb(117, 179, 179);
+    padding: 5px;
+    border: 1px solid rgb(117, 179, 179);
+    border-radius: 5px;
+    width: 100px;
+}

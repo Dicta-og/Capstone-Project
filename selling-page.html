@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling Page</title>
+    <link rel="stylesheet" href="css/selling-page.css">
+</head>
+<body>
+    <section class="display">
+        <div class="display-list">
+            <li>Earrings</li>
+            <li>Rings</li>
+            <li>Bracelet</li>
+            <li>Wristwatch</li>
+            <li>More</li>
+            <li>About</li>
+        </div>
+        <div class="display-icons">
+            <img src="icons/cart.svg" alt="">
+            <img src="icons/notification.svg" alt="">
+            <img src="icons/like.svg" alt="">
+        </div>
+        <div class="company-logo">
+            <img src="images/easymart.png" alt="">
+        </div>
+    </section>
+    <section class="backdrop">
+        <img src="images/backdrop.png" alt="">
+        <button>Shop Now</button>
+    </section>
+    <section class="recommend">
+        <p>Recommended For You</p>
+        <div class="recommend-display">
+            <div class="product-display">
+                <img src="images/product-rings.png" alt="">
+                <div class="product-details">
+                    <div class="product-price">
+                       <span>Ring</span>
+                       <span>&#8358;20,000</span>
+                       <img src="icons/like.svg" alt="">
+                    </div>
+                    <div class="product-to-cart">
+                        <div>
+                            <button id="decrease-button" onclick="decreaseItems()">-</button>
+                            <input type="number" value="1" id="itemNumber">
+                            <button id="increase-button" onclick="increaseItems()">+</button>
+                        </div>
+                        <button id="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-display">
+                <img src="images/product-bracelet.png" alt="">
+                <div class="product-details">
+                    <div class="product-price">
+                       <span>Bracelet</span>
+                       <span>&#8358;30,000</span>
+                       <img src="icons/like.svg" alt="">
+                    </div>
+                    <div class="product-to-cart">
+                        <div>
+                            <button id="decrease-button" onclick="decreaseItems()">-</button>
+                            <input type="number" value="1" id="itemNumber">
+                            <button id="increase-button" onclick="increaseItems()">+</button>
+                        </div>
+                        <button id="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-display">
+                <img src="images/product-diamond-rings.png" alt="">
+                <div class="product-details">
+                    <div class="product-price">
+                       <span>Diamond ring</span>
+                       <span>&#8358;45,000</span>
+                       <img src="icons/like.svg" alt="">
+                    </div>
+                    <div class="product-to-cart">
+                        <div>
+                            <button id="decrease-button" onclick="decreaseItems()">-</button>
+                            <input type="number" value="1" id="itemNumber">
+                            <button id="increase-button" onclick="increaseItems()">+</button>
+                        </div>
+                        <button id="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-display">
+                <img src="images/product-necklace.png" alt="">
+                <div class="product-details">
+                    <div class="product-price">
+                       <span>Necklace</span>
+                       <span>&#8358;30,000</span>
+                       <img src="icons/like.svg" alt="">
+                    </div>
+                    <div class="product-to-cart">
+                        <div>
+                            <button id="decrease-button" onclick="decreaseItems()">-</button>
+                            <input type="number" value="1" id="itemNumber">
+                            <button id="increase-button" onclick="increaseItems()">+</button>
+                        </div>
+                        <button id="add-to-cart">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="scripts/selling-page.js"></script>
+</body>
+</html>
